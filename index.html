@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lines and Stacks</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>World population over time</h1>
+      <h2>Number of people (in millions) living on earth, the last 500 years</h2>
+      <canvas id="lineChart" width="1600" height="900"></canvas>
+
+
+      <h1>COVID-19 Mortality Rate</h1>
+      <h2>The rate of deaths per country from COIVD-19</h2> <!-- I am unsure how these rates work ngl. is it per people infected? -->
+      <p> These percentages are specific to how each country is testing. Often those with mild cases are not being counted for, as a result, those countries limiting testing will appear to have a higher mortality rate. The US had just begun testing for the virus, at the time these numbers were produced. As more folks are tested the rate will likely drop as more people who have it will recover. Although the lack of healthcare has yet to be factored into how people are treated in the US. Overall everyone is probably going to be fine, healthy, young able-bodied people will likely experience something similar to the flu at worse. the focus should be on protecting the elderly and those with prior illnesses. </p>
+      <canvas id="barChart" width="1600" height="900"></canvas>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+    <script src="script.js"></script>
+
+
+  </body>
+  <!-- Thanks to Tobias Ahlin, whose chart.js tutorial forms the basis of the line graph portion of this exercise -->
+</html>
